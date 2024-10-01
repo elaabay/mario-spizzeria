@@ -1,0 +1,74 @@
+/* style.css */
+
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #540303;
+    color: #ffffff;
+}
+
+header, footer 
+{
+    background-color: #760202;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    top: 0;
+}
+
+footer{
+    bottom: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover 
+{
+    text-decoration: underline;
+}
+
+.container 
+{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+table, th, td
+{
+    border: 1px solid #ddd;
+    padding:8px;
+    background-color: #ffffff;
+}
+
+form input, form textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10 px 0;
+}
+
+form input[type="submit"]
+{
+    background-color:#c70606;
+    color:white;
+    padding:11px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover
+{
+    background-color: #08a035;
+
+}
